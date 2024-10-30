@@ -1,0 +1,1 @@
+flask --debug run -h localhost -p 5000

@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  frontend:
+    container_name: frontend
+    build: ./frontend
+    restart: always
+    links:
+      - database
+    ports:
+      - 8000:5000
+  database:
+    container_name: database
+    build: ./database
+    restart: always
+    ports:
+      - 3306:3306
+volumes:
+  db_data:
