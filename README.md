@@ -14,5 +14,5 @@ git clone https://github.com/BensonsPage/scrum-standup-app
 - git commit -m "Update my website" # To Commit your changes.
 - git push origin branch-name # push the branch to the remote repository.
 - Merge your changes to your main branch.
-- If you encounter issues refer to this article https://bensonspage.medium.com/designing-for-speed-security-agility-and-customer-satisfaction-on-aws-using-s3-cloudfront-26b5ae8df448
+- If you encounter issues refer to this article [Building Scalable and Resilient Applications with Containers](https://www.linkedin.com/pulse/building-scalable-resilient-applications-containers-benson-kimani-ia29f/).
 
